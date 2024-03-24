@@ -1,6 +1,6 @@
 Rail-to-Rail Comparator Design
 
-Welcome to the Rail-to-Rail Comparator Design repository on GitHub! This repository contains the design files for a comparator circuit that operates with a rail-to-rail input common mode level
+Welcome to the Rail-to-Rail Comparator Design repository on GitHub! This repository contains the design files for a comparator circuit that operates with a rail-to-rail input common mode level.
 
 About the Design
 
