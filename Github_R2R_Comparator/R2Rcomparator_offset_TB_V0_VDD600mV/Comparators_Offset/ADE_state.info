@@ -1,0 +1,3 @@
+projectDir = '"./simulation"
+designInfo = '("LowPower_28" "R2Rcomparator_offset_TB_V0" "schematic" "spectre")
+descriptionText = "None"

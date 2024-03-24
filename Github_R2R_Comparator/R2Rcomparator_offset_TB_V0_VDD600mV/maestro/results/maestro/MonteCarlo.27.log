@@ -1,0 +1,51 @@
+Starting Monte Carlo Sampling...
+
+Current time: Thu Jul  6 05:06:56 2023 
+
+Variation: Mismatch
+Sampling Method: Low-Discrepancy Sequence
+Seed: 12345
+
+MonteCarlo.27
+Number of points completed: 100
+Number of simulation errors: 45
+MonteCarlo.27 completed. 
+Current time: Thu Jul  6 06:13:40 2023 
+Monte Carlo Sampling yield summary:
+Number of spec values are in this yield data: 10
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offset_N:	Yield	96%
+		Min -0.022	Max 0.01775	Mean 0.000475	Number of errors 4
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offset_P:	Yield	100%
+		Min -0.0172	Max 0.02	Mean -1.6e-05	Number of errors 0
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offset_R:	Yield	89%
+		Min -0.0229	Max 0.0221	Mean 0.000648315	Number of errors 11
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetf_N:	Yield	96%
+		Min -0.02215	Max 0.01775	Mean 0.000428125	Number of errors 4
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetf_P:	Yield	100%
+		Min -0.01735	Max 0.01985	Mean -0.000151	Number of errors 0
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetf_R:	Yield	89%
+		Min -0.02275	Max 0.02195	Mean 0.000794944	Number of errors 11
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetr_N:	Yield	96%
+		Min -0.02185	Max 0.01775	Mean 0.000521875	Number of errors 4
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetr_P:	Yield	100%
+		Min -0.01705	Max 0.02015	Mean 0.000119	Number of errors 0
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	Offsetr_R:	Yield	89%
+		Min -0.02305	Max 0.02225	Mean 0.000501685	Number of errors 11
+LowPower_28_R2Rcomparator_offset_TB_V0_1	MC - 
+	v /In0; tran (V):	Yield	0%
+		Min 0	Max 0	Mean 0	Number of errors 0
+
+LowPower_28_R2Rcomparator_offset_TB_V0_1
+	Overall Yield	100%	Number of points passed	100	Total number of points	100
+
+Estimated yield = 100% (100/100), 14 errors
+Estimated yield (No opregions) = 100% (100/100)

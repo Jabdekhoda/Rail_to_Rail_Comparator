@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Jul  8 15:58:12 2023 
+Best design point: 1
+Design specs: 
+	LowPower_28_R2Rcomparator_offset_TB_V0_1	corner	MC - 
+	Offsetf_N		-250u
+	Offsetr_N		50u
+	Offsetf_P		-250u
+	Offsetr_P		50u
+	Offsetf_R		-250u
+	Offsetr_R		50u
+	Offset_N		-100u
+	Offset_P		-100u
+	Offset_R		-100u
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Sat Jul  8 15:59:03 2023 

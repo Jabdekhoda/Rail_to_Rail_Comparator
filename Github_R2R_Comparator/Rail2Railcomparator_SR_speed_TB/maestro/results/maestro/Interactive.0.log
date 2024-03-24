@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Mar 21 11:35:44 2024 
+Best design point: 1
+Design specs: 
+	LowPower_28_Rail2Railcomparator_SR_speed_TB_1	corner	Nominal - 
+	delay_P		58.01p
+	delay_N		Error	No
+	delay_R		54.81p
+	I_N		-1.382u
+	I_P		-154.7u
+	I_R		-146.9u
+Design parameters: 
+
+Interactive.0
+Number of points completed: 10
+Number of simulation errors: 5
+Interactive.0 completed. 
+Current time: Thu Mar 21 11:39:42 2024 

@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Mar 20 21:19:42 2024 
+Best design point: 1
+Design specs: 
+	LowPower_28_Comp_stndrd_tran_noise_TB_V0_1	corner	Nominal - 
+	OUT_N		541.4m
+	OUT_P		503.3m
+	OUT_R		552.9m
+Design parameters: 
+
+Interactive.0
+Number of points completed: 11
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Wed Mar 20 22:42:44 2024 

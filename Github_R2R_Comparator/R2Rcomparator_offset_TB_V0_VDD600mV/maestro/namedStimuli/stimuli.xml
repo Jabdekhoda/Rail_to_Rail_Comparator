@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stimuliset>
+    <namedstimuli>
+        <stimuliname>undefined</stimuliname>
+        <timeStamp></timeStamp>
+        <simStopTime>1n</simStopTime>
+        <libname></libname>
+        <srctype>bit</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vbit</cdfinstname>
+    </namedstimuli>
+</stimuliset>
