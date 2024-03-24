@@ -1,0 +1,41 @@
+// VerilogA for workshop, offset_measure, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+//	vramp,  (output) input voltage for comparator, non-inverting
+//      clk,  clock signal for the comparator
+
+module offsetrampgenerator(vramp, clk);
+input		clk ;
+output		vramp ;
+electrical 	vramp, clk ;
+
+parameter	vth=0.5 ;			// clk threshold voltage
+parameter	resolution=100u ;	// resolution of the ramp
+parameter       maxin = 30m ;		// maximum input level
+parameter        td = 100p ;	// delay time
+parameter	 tr = 100p ;	// rise time 
+
+real    offset ;
+integer direction ;
+
+analog
+begin
+   @(initial_step("static","tran")) begin  // On initialization,
+	offset = maxin-resolution/2;
+        direction = -1 ;
+   end
+
+   @( cross( V(clk)>vth, -1 )) begin
+	offset = offset + (direction * resolution) ;
+   end 
+   
+   if(offset < -(maxin+(resolution/2))) begin
+      direction= 1 ;
+   end
+   
+   V(vramp) <+ transition( offset, td, tr, tr ) ;
+	
+end
+endmodule
