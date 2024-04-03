@@ -8,7 +8,7 @@ This design utilizes a low-power dynamic comparator and its complementary to for
 The repository includes test benches for comparing the noise, offset, and latency of this rail-to-rail comparator with its conventional non-rail-to-rail counterparts.
 ## Acknowledgments
 
-We would like to acknowledge Intel's patent for utilizing a similar idea in their Starong Arm Latch design. Their patent number is US20220302943A1.
+We would like to acknowledge Intel's patent for utilizing a similar idea in their Strong Arm Latch design. Their patent number is US20220302943A1.
 
 ## License
 
